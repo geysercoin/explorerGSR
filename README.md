@@ -7,8 +7,12 @@ This project is a fork of [Iquidus Explorer](https://github.com/iquidus/explorer
 
 ### See it in action
 
+<<<<<<< HEAD
 *  [explorer.buy-coin.me](https://explorer.buy-coin.me)
 
+=======
+*  [GeyserCoin](http://explorer.geysercoin.com)
+>>>>>>> 310aaaf827ff0f8b7df5c2d3b38a90977498ca13
 
 ### Requires
 
