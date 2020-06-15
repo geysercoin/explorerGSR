@@ -1,9 +1,7 @@
 body {
   padding: 80px 40px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
- background-image: url('/images/background2.png');
- background-size: cover, 100%;
- background-repeat: repeat-y;
+ /* background-image: url('/images/background2.png');*/
 }
 
 #index-search {
@@ -98,9 +96,16 @@ tr {
 	margin-left:5px;
 }
 
-#twitter-icon {
+#twitter-icon, 
+#facebook-icon, 
+#googleplus-icon, 
+#bitcointalk-icon, 
+#website-icon, 
+#github-icon, 
+#slack-icon {
 	font-size: 20px;
 }
+
 .connections {
 	position: absolute;
 	bottom: 15px;
@@ -111,7 +116,13 @@ tr {
 	margin-right: 10px;
 }
 
-#twitter-icon img{
+#twitter-icon img, 
+#facebook-icon img, 
+#googleplus-icon img, 
+#bitcointalk-icon img, 
+#website-icon img, 
+#github-icon img, 
+#slack-icon img{
 	width: 40px;
 	margin: 5px 5px;
 }
@@ -120,12 +131,21 @@ tr {
 	margin-bottom: 5px;
 }
 
+#hashratepanel span,
+#difficultypanel span,
+#supplypanel span,
+#masternodepanel span,
+#pricepanel span{
+	margin: 0 5px 0 5px;
+	top: 0;
+}
+
 .label a:link {
-	color: #6a869a;
+	color: #ffffff;
 }
 
 .label a:visited {
-	color: #6a869a;
+	color: #ffffff;
 }
 
 .label a:hover {
@@ -166,3 +186,6 @@ tr {
 	bottom: 0px;
 }
 
+body > div.col-xs-12.col-md-10.col-md-offset-1, body > div.col-xs-12.col-md-10.col-md-offset-1, body > div.col-xs-12.col-md-10.col-md-offset-1 {
+	margin-bottom:50px;
+}
